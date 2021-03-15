@@ -1,0 +1,34 @@
+.center {
+  text-align: center;
+}
+.photo {
+  width: 500px;
+  height: 500px;
+}
+.bold {
+  font-weight: bold;
+}
+.imgwidth {
+  width: 50px;
+  height: 50px;
+}
+.left {
+  float: left;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* nav {
+  float: right;
+} */
+/* a::after {
+  content: "->";
+} */
+.fa-heart {
+  color: rgb(17, 45, 201);
+}
+/* .w-100 {
+  width: 80% !important;
+} */
