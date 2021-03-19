@@ -1,0 +1,90 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+/* Style tab links Aakash Code*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .tablink {
+    background-color: #009879;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 200px;
+    min-height: 200px;
+    -webkit-border-top-left-radius: 100px;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    box-shadow: 0 0 20px #888;
+  }
+  
+  .tablink:hover {
+    background-color: #c8cbcc;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  .button {
+    background-color: #054351;
+    color: white;
+    float: center;
+    /* border: none; */
+    /* outline: none; */
+    cursor: pointer;
+    padding: 2px 10px;
+    font-size: 16px;
+    width: 80%;
+  }
+  
+  .button:hover {
+    background-color: #34607A;
+  }
+  /* /////////////Table- Aakash///////// */
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+      padding: 12px 15px;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
