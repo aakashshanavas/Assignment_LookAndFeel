@@ -11,21 +11,29 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script>$(function(){
-        $("#includedContent").load("BootNav.html");
-        $("#includedCarousel").load("carousel.html");
+        $("#nav-bar").load("BootNav.html");
+        // $("#includedCarousel").load("carousel.html");
+        $("#footer").load("footer.html");
       });</script>
 </head>
 <body>
+    
+    <!-- Loading Navbar -->
+    <div id="nav-bar"></div>
+    <!--  -->
+    
+    <img class="h-50 w-100" src="img/covid_banner.png" alt="First slide">
+    
+    <div class="center first-txt" >
+        <h1>Explore Covid-19 Death Underlying Condition</h1>
+    </div>
+    
+    <!-- Load footer -->
+    <div id="footer"></div>
+    <!--  -->
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f4cc93c88a.js" crossorigin="anonymous"></script>
-    <div id="includedContent"></div>
-    <div class="center" class="picture1" class="containerImg">
-        <img class="d-block w-100" src="img/covid_banner.png" alt="First slide">
-        <!-- <div class="top-left">Top Left</div> -->
-    <h1>This is the homepage for our new project</h1>
-    </div>
-    <p class="center bold">&copy This page is developed by Siva Allam and Aakash Shanvas with <i class="fas fa-heart"></i></p>
-    
 </body>
 </html>

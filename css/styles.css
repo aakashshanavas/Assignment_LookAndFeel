@@ -1,16 +1,22 @@
+/* * {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+} */
+
+
 .center {
   text-align: center;
 }
-.photo {
-  width: 500px;
-  height: 500px;
+.h-50 {
+  height: 100px;
 }
 .bold {
   font-weight: bold;
 }
 .imgwidth {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 .left {
   float: left;
@@ -20,12 +26,11 @@
   margin: 0 auto;
 }
 
-div.picture1 {
-  width:100px; /*width of your image*/
-  height:100px; /*height of your image*/
-  background-image:url('img\blue-covid-banner.jpg');
-  margin:0; /* If you want no margin */
-  padding:0; /*if your want to padding */
+.first-txt{
+  position: absolute;
+  top: 100px;
+  left:5px;
+  color:rgb(255, 255, 255);
 }
 
 /* nav {
@@ -37,9 +42,7 @@ div.picture1 {
 .fa-heart {
   color: rgb(17, 45, 201);
 }
-/* .w-100 {
-  width: 80% !important;
-} */
+
 
 /* Container holding the image and the text */
 .containerImg {
@@ -53,4 +56,9 @@ div.picture1 {
   position: absolute;
   top: 30px;
   left: 16px;
+}
+
+.footer {
+  background-color: darkslategray;
+  color: white;
 }
