@@ -20,6 +20,14 @@
   margin: 0 auto;
 }
 
+div.picture1 {
+  width:100px; /*width of your image*/
+  height:100px; /*height of your image*/
+  background-image:url('img\blue-covid-banner.jpg');
+  margin:0; /* If you want no margin */
+  padding:0; /*if your want to padding */
+}
+
 /* nav {
   float: right;
 } */
@@ -32,3 +40,49 @@
 /* .w-100 {
   width: 80% !important;
 } */
+
+/* Container holding the image and the text */
+.containerImg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 16px;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+/* Style tab links Aakash Code*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: #054351;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: #34607A;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
