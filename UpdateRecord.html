@@ -29,23 +29,40 @@
         <table class="styled-table">
         <thead>
           <tr>
-              <th>Condition Group</th>
-              <th>Age Group</th>
-              <th>Total Covid Deaths</th>
-              <th></th>
-              <th></th>
+              <th colspan="5">Update Record</th>
           </tr>
       </thead>
         <tr>
-            <tr><td>Alzheimer disease</td><td>25-34</td><td>238</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr class="active-row"><td>Circulatory diseases</td><td>35-44</td><td>435</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr><td>COVID-19</td><td>45-54</td><td>4567</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr class="active-row"><td>Diabetes</td><td>55-64</td><td>8789</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr><td>Malignant neoplasms</td><td>85+</td><td>435</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr class="active-row"><td>COVID-19</td><td>65-74</td><td>4567</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr><td>Obesity</td><td>35-44</td><td>5478</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
-            <tr class="active-row"><td>Renal Failure</td><td>65-74</td><td>456</td><td><button class="tablink" onclick="window.location.href='/UpdateRecord.html'">Update</button></td><td><button class="tablink" onclick="window.location.href='/DeleteRecord.html'">Delete</button></td></tr>
+            <tr><td><form>
+                <label>Condition Group<br>(Read-only)</label><br>
+                <input type="text" name="Condition Group" value="Respiratory diseases" readonly style="background-color:#d8d8d8;"><br>
+              </form>
+            </td>
+            <td><form>
+                <label>Condition<br>(Read-only)</label><br>
+                <input type="text" name="Condition" value="Respiratory arrest" readonly style="background-color:#d8d8d8;"><br>
+              </form>
+            </td>
+            <td><form>
+                <label>Year<br>(Read-only)</label><br>
+                <input type="text" name="Year" value="2020" readonly style="background-color:#d8d8d8;"><br>
+              </form>
+            </td>
+            <td><form>
+                <label>Month<br>(Read-only)</label><br>
+                <input type="text" name="Month" value="March" readonly style="background-color:#d8d8d8;"><br>
+              </form>
+            </td>
+            <td><form>
+                <label for="fname" >Total Covid deaths<br> <br></label><br>
+                <input type="text" id="fname" name="fname"><br>
+              </form>
+            </td>
+            
           <!-- </table> -->
+        </tr>
+        <tr>
+            <td colspan="5"><button class="tablink" onclick="">Update</button></td>
         </tr>
       </table>
        <!-- <img src="usf-logo-png-2.png" alt="university logo"> -->
