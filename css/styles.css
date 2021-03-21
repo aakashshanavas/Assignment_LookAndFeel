@@ -21,10 +21,11 @@
 .left {
   float: left;
 }
-.container {
+
+/* .container {
   width: 80%;
   margin: 0 auto;
-}
+} */
 
 .first-txt{
   position: absolute;
@@ -69,4 +70,15 @@
   object-fit: cover;
 }
 
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 5%;
+  left: -22%;
+  width: 100%;
+  color:white;
+}
 
