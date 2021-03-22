@@ -1,23 +1,37 @@
+/* * {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+} */
+
+
 .center {
   text-align: center;
 }
-.photo {
-  width: 500px;
-  height: 500px;
+.h-50 {
+  height: 100px;
 }
 .bold {
   font-weight: bold;
 }
 .imgwidth {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 .left {
   float: left;
 }
-.container {
+
+/* .container {
   width: 80%;
   margin: 0 auto;
+} */
+
+.first-txt{
+  position: absolute;
+  top: 100px;
+  left:5px;
+  color:rgb(255, 255, 255);
 }
 
 div.picture1 {
@@ -37,9 +51,13 @@ div.picture1 {
 .fa-heart {
   color: rgb(17, 45, 201);
 }
+<<<<<<< HEAD
 /* .w-100 {
   width: 80% !important;
 } */
+=======
+
+>>>>>>> 892c6a6fdf311cf992ff8c76feea87d74155ea7f
 
 /* Container holding the image and the text */
 .containerImg {
@@ -55,6 +73,7 @@ div.picture1 {
   left: 16px;
 }
 
+<<<<<<< HEAD
 /* Set height of body and the document to 100% to enable "full page tabs" */
 /* Style tab links Aakash Code*/
 body, html {
@@ -145,5 +164,30 @@ body, html {
   font-weight: bold;
   color: #009879;
 }
+=======
+.footer {
+  background-color: darkslategray;
+  color: white;
+}
+
+.about-img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 5%;
+  left: -22%;
+  width: 100%;
+  color:white;
+}
+
+>>>>>>> 892c6a6fdf311cf992ff8c76feea87d74155ea7f
 
 
